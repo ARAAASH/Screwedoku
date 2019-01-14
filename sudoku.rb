@@ -6,7 +6,7 @@ puts "Instead, comment out half of the bad file at a time until the error change
 puts ""
 puts "Does this approach feel familiar?  The approach is a version of binary search.\n\n".red
 
-require_relative "board"
+require_relative "board.rb"
 
 class SudokuGame
   def self.from_file(filename)
